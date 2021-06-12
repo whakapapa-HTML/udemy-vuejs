@@ -4,7 +4,7 @@
      <h3>初めまして</h3>
   </LikeHeader>
   <LikeNumber :total-number="number" v-on:my-click="incrementNumber"></LikeNumber>
-   
+
   <LikeNumber :total-number="number"></LikeNumber>
   <button @click="currentComponent='Home'">Home</button>
   <button @click="currentComponent='About'">About</button>
